@@ -14,12 +14,18 @@
     "doxygen",
     "framebuffer",
     "framebuffersizefun",
+    "gitsubmodule",
     "glfw",
     "gouraud",
     "graphviz",
     "isort",
     "javadoc",
+    "libc",
+    "libgcc",
+    "libm",
+    "libstdc",
     "libwayland",
+    "libxcb",
     "libxkbcommon",
     "linuxbrew",
     "loadproc",
@@ -42,6 +48,8 @@
     "treeview",
     "unuse",
     "vcpkg",
+    "vdso",
+    "xdmcp",
     "xorg"
   ]
 }

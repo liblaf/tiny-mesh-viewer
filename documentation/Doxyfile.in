@@ -1,0 +1,67 @@
+# Doxyfile 1.9.6
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+PROJECT_NAME        = @DOXYGEN_PROJECT_NAME@
+OUTPUT_DIRECTORY    = @DOXYGEN_OUTPUT_DIRECTORY@
+CREATE_SUBDIRS      = YES
+ALLOW_UNICODE_NAMES = YES
+STRIP_FROM_PATH     = @DOXYGEN_DOCUMENTATION_DIR@ @DOXYGEN_SOURCE_DIR@ @DOXYGEN_PROJECT_ROOT@
+JAVADOC_AUTOBRIEF   = YES
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+EXTRACT_ALL           = YES
+EXTRACT_PRIVATE       = YES
+EXTRACT_PRIV_VIRTUAL  = YES
+EXTRACT_PACKAGE       = YES
+EXTRACT_STATIC        = YES
+EXTRACT_LOCAL_CLASSES = YES
+EXTRACT_LOCAL_METHODS = YES
+EXTRACT_ANON_NSPACES  = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the input files
+#---------------------------------------------------------------------------
+INPUT                  = @DOXYGEN_README@ @DOXYGEN_DOCUMENTATION_DIR@ @DOXYGEN_SOURCE_DIR@ @DOXYGEN_PROJECT_ROOT@/demo/full.yaml
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = @DOXYGEN_README@
+
+#---------------------------------------------------------------------------
+# Configuration options related to source browsing
+#---------------------------------------------------------------------------
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+REFERENCES_LINK_SOURCE = YES
+SOURCE_TOOLTIPS        = YES
+VERBATIM_HEADERS       = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the HTML output
+#---------------------------------------------------------------------------
+GENERATE_HTML     = YES
+GENERATE_TREEVIEW = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the LaTeX output
+#---------------------------------------------------------------------------
+GENERATE_LATEX = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to the dot tool
+#---------------------------------------------------------------------------
+HAVE_DOT            = YES
+UML_LOOK            = YES
+DOT_UML_DETAILS     = YES
+TEMPLATE_RELATIONS  = YES
+INCLUDE_GRAPH       = YES
+INCLUDED_BY_GRAPH   = YES
+CALL_GRAPH          = YES
+CALLER_GRAPH        = YES
+GRAPHICAL_HIERARCHY = YES
+DIRECTORY_GRAPH     = YES

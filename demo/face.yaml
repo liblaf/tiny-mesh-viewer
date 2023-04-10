@@ -1,0 +1,54 @@
+shaders:
+  - id: phong
+    type: Phong
+    ambient_reflection: 1.0
+    diffuse_reflection: 1.0
+    specular_reflection: 1.0
+
+canvas:
+  color: null
+
+translation_speed: &translation_speed [0.0, 45.0, 0.0]
+
+scene:
+  camera:
+    position: [1000.0, 0.0, -650.0]
+    look_at: [0.0, 0.0, -650.0]
+    translation_speed: 1000.0
+    z_far: 10000.0
+  ambient_light:
+    color: [0.25, 0.25, 0.25]
+  point_light:
+    position: [1000.0, 1000.0, -1000.0]
+    color: [1.0, 1.0, 1.0]
+  objects:
+    - type: TriMesh
+      filepath: data/s0.obj
+      shader_id: phong
+      position: [0.0, 0.0, 0.0]
+      rotation_speed: *translation_speed
+    - type: TriMesh
+      filepath: data/s1.obj
+      shader_id: phong
+      position: [0.0, 0.0, -200.0]
+      rotation_speed: *translation_speed
+    - type: TriMesh
+      filepath: data/t0.obj
+      shader_id: phong
+      position: [0.0, 0.0, -400.0]
+      rotation_speed: *translation_speed
+    - type: TriMesh
+      filepath: data/t1.obj
+      shader_id: phong
+      position: [0.0, 0.0, -600.0]
+      rotation_speed: *translation_speed
+    - type: TriMesh
+      filepath: data/u0.obj
+      shader_id: phong
+      position: [0.0, 0.0, -900.0]
+      rotation_speed: *translation_speed
+    - type: TriMesh
+      filepath: data/u1.obj
+      shader_id: phong
+      position: [0.0, 0.0, -1200.0]
+      rotation_speed: *translation_speed

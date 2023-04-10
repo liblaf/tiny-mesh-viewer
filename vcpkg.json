@@ -1,0 +1,48 @@
+{
+  "$schema": "https://github.com/microsoft/vcpkg-tool/raw/main/docs/vcpkg.schema.json",
+  "builtin-baseline": "a7b6122f6b6504d16d96117336a0562693579933",
+  "dependencies": [
+    {
+      "name": "boost-signals2",
+      "version>=": "1.80.0"
+    },
+    {
+      "name": "cmakerc",
+      "version>=": "2021-08-27"
+    },
+    {
+      "name": "cxxopts",
+      "version>=": "3.0.0"
+    },
+    {
+      "name": "dbg-macro",
+      "version>=": "2021-11-02"
+    },
+    {
+      "name": "fmt",
+      "version>=": "9.0.0"
+    },
+    {
+      "name": "glad",
+      "version>=": "0.1.36"
+    },
+    {
+      "name": "glfw3",
+      "version>=": "3.3.8"
+    },
+    {
+      "name": "glm"
+    },
+    {
+      "name": "openmesh"
+    },
+    {
+      "name": "spdlog",
+      "version>=": "1.10.0"
+    },
+    {
+      "name": "yaml-cpp",
+      "version>=": "0.7.0"
+    }
+  ]
+}

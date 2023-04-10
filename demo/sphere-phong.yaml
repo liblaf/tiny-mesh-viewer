@@ -1,0 +1,24 @@
+shaders:
+  - id: phong
+    type: Phong
+    ambient_reflection: 1.0
+    diffuse_reflection: 1.0
+    specular_reflection: 1.0
+
+canvas:
+  color: null
+
+scene:
+  camera:
+    position: [2.0, 0.0, 0.0]
+    look_at: [0.0, 0.0, 0.0]
+  ambient_light:
+    color: [0.25, 0.25, 0.25]
+  point_light:
+    position: [1.0, 1.0, -1.0]
+    color: [1.0, 1.0, 1.0]
+  objects:
+    - type: TriMesh
+      filepath: data/sphere.obj
+      shader_id: phong
+      rotation_speed: [0.0, 45.0, 0.0]

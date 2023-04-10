@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "debug",
+      "toolchainFile": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": {
+          "type": "BOOL",
+          "value": true
+        },
+        "CMAKE_BUILD_TYPE": {
+          "type": "STRING",
+          "value": "Debug"
+        },
+        "USE_CLANG_TIDY": {
+          "type": "BOOL",
+          "value": true
+        },
+        "USE_CPPLINT": {
+          "type": "BOOL",
+          "value": true
+        },
+        "SANITIZERS": {
+          "type": "STRING",
+          "value": "address;undefined"
+        }
+      },
+      "environment": {
+        "CC": "clang",
+        "CXX": "clang++"
+      }
+    },
+    {
+      "name": "release",
+      "inherits": "debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": {
+          "type": "STRING",
+          "value": "Release"
+        },
+        "SANITIZERS": {
+          "type": "STRING",
+          "value": ""
+        }
+      }
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 
 namespace tiny_mesh_viewer::common {
 
+/** Python-like `with` statement for OpenGL objects.
+ */
 template <typename T>
 class WithBind {
  public:
@@ -14,6 +16,8 @@ class WithBind {
   T& t_;
 };
 
+/** Python-like `with` statement for OpenGL objects.
+ */
 template <typename T>
 class WithUse {
  public:

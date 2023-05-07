@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.26)
 add_custom_target(
   demo-sphere-phong
   COMMAND $<TARGET_FILE:${TARGET}> --config ${DEMO_DIR}/sphere-phong.yaml
-  DEPENDS data
+  # DEPENDS data
   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
   VERBATIM
   SOURCES ${DEMO_DIR}/sphere-phong.yaml)
@@ -11,7 +11,7 @@ add_custom_target(
 add_custom_target(
   demo-sphere-gouraud
   COMMAND $<TARGET_FILE:${TARGET}> --config ${DEMO_DIR}/sphere-gouraud.yaml
-  DEPENDS data
+  # DEPENDS data
   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
   VERBATIM
   SOURCES ${DEMO_DIR}/sphere-gouraud.yaml)

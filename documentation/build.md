@@ -2,15 +2,6 @@
 
 ## Requirements
 
-### Install All Dependencies on Arch Linux
-
-```bash
-pip install --requirement requirements.txt
-pipx install black cmakelang cpplint isort
-pnpm add --global @vercel/serve
-yay --sync clang cmake doxygen graphviz llvm
-```
-
 ### Required Dependencies
 
 - `C++ Compiler`: C++17 required
@@ -53,4 +44,4 @@ Simply execute `make` or `make PRESET=release`, and the compilation is complete!
 
 ## Preview
 
-See `demo/` for available demos. Note that you don't need to invoke `cmake` directly, the targets are in the `Makefile` at the root of the project.
+See `demo/` for available demos. Note that you don't need to invoke `cmake` directly, the targets can be found in the `Makefile` at the root of the project.

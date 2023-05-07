@@ -36,6 +36,10 @@ Usage:
 
 See `demo/full.yaml` for all configurable variables.
 
+### Change Shader
+
+The rendering of each object depends on the `shaders[*].type`. If you change `shaders[*].id`, make sure to update `scene.objects[*].shader_id` accordingly.
+
 ## Camera Control
 
 - `A`: move left

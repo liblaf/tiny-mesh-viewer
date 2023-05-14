@@ -1,0 +1,6 @@
+<map id="tiny_mesh_viewer::shader::Phong" name="tiny_mesh_viewer::shader::Phong">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1201,232,1456"/>
+<area shape="rect" id="node2" href="$db/d8a/classtiny__mesh__viewer_1_1shader_1_1BlinnPhong.html" title=" " alt="" coords="14,797,223,1153"/>
+<area shape="rect" id="node3" href="$d9/d60/classtiny__mesh__viewer_1_1shader_1_1Shader.html" title=" " alt="" coords="16,580,221,749"/>
+<area shape="rect" id="node4" href="$d5/d2c/classtiny__mesh__viewer_1_1opengl_1_1Program.html" title=" " alt="" coords="10,5,227,532"/>
+</map>

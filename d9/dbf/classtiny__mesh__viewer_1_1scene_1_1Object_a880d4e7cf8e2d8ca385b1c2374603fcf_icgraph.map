@@ -1,0 +1,11 @@
+<map id="tiny_mesh_viewer::scene::Object::position" name="tiny_mesh_viewer::scene::Object::position">
+<area shape="rect" id="node1" title=" " alt="" coords="943,109,1129,154"/>
+<area shape="rect" id="node2" href="$d0/d09/classtiny__mesh__viewer_1_1scene_1_1TriMesh.html#a5416ad1e7bcf8d0716dd41d70f53b483" title="Create OpenGL object and copy data to buffers." alt="" coords="708,5,895,50"/>
+<area shape="rect" id="node3" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#adc8b79e99d7887fd3b32cfa96d2102ee" title=" " alt="" coords="708,75,895,119"/>
+<area shape="rect" id="node7" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#af5a5bd2cd01ea366e2ab52c336fe8bea" title=" " alt="" coords="708,144,895,189"/>
+<area shape="rect" id="node9" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#a9695346c28140f3d4a9ad5ec45d864fc" title="Update position &amp; rotation." alt="" coords="474,213,660,258"/>
+<area shape="rect" id="node4" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#a767c5743c2e02e6f7dc60fe5a324c308" title=" " alt="" coords="240,45,426,90"/>
+<area shape="rect" id="node6" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#a8514eb9ed14b469592d1e9adf0f1b84a" title=" " alt="" coords="474,75,660,119"/>
+<area shape="rect" id="node5" href="$d0/d09/classtiny__mesh__viewer_1_1scene_1_1TriMesh.html#a4fb9c21ac87b75b6aca9cf69505daa16" title=" " alt="" coords="5,45,192,90"/>
+<area shape="rect" id="node8" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#a43b4da3299255248916500dfaa6ef9f6" title=" " alt="" coords="474,144,660,189"/>
+</map>

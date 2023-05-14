@@ -1,0 +1,11 @@
+<map id="tiny_mesh_viewer::ui::Window::ConnectShader" name="tiny_mesh_viewer::ui::Window::ConnectShader">
+<area shape="rect" id="node1" title=" " alt="" coords="5,213,192,258"/>
+<area shape="rect" id="node2" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#af94a82da1cf99fe7bf157fe5e98b5022" title=" " alt="" coords="243,179,429,223"/>
+<area shape="rect" id="node9" href="$d5/d2c/classtiny__mesh__viewer_1_1opengl_1_1Program.html#af9b44be21752a98d61842ef9404208c6" title=" " alt="" coords="240,248,432,293"/>
+<area shape="rect" id="node3" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#a8c190eb1665b281c51e1e1956d866e5d" title=" " alt="" coords="480,5,666,50"/>
+<area shape="rect" id="node4" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#a749a720fcf9ee86fc04fa04826b53e7e" title=" " alt="" coords="480,75,666,119"/>
+<area shape="rect" id="node5" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#a208991cd06468e34693a792240e0d7c1" title=" " alt="" coords="480,144,666,189"/>
+<area shape="rect" id="node6" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#a4f633eb37cfc28a39b4a95e01416b5dd" title=" " alt="" coords="480,213,666,258"/>
+<area shape="rect" id="node7" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#a41ff50bfadd7e47d72b84d54b2e8d508" title=" " alt="" coords="480,283,666,327"/>
+<area shape="rect" id="node8" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#aded0419e4fcbddfa142538d3998d25cd" title=" " alt="" coords="480,352,666,397"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tiny_mesh_viewer::common::math::VectorToEuler" name="tiny_mesh_viewer::common::math::VectorToEuler">
+<area shape="rect" id="node1" title="Convert a direction vector to yaw, pitch." alt="" coords="240,5,445,50"/>
+<area shape="rect" id="node2" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#aad4c017641bb63c5dc6d4ba0bd8590f4" title=" " alt="" coords="5,5,192,50"/>
+</map>

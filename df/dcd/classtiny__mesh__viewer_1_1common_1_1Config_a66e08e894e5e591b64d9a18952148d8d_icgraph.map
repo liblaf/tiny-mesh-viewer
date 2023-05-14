@@ -1,0 +1,11 @@
+<map id="tiny_mesh_viewer::common::Config::AsVec3" name="tiny_mesh_viewer::common::Config::AsVec3">
+<area shape="rect" id="node1" title=" " alt="" coords="969,160,1174,205"/>
+<area shape="rect" id="node2" href="$dd/d97/classtiny__mesh__viewer_1_1scene_1_1Camera.html#aeafaee039552e655c9e699aaceaf92c5" title=" " alt="" coords="497,5,683,50"/>
+<area shape="rect" id="node5" href="$de/dc9/classtiny__mesh__viewer_1_1scene_1_1AmbientLight.html#a44b1e3767c615e67ceba9ce37b44e36b" title=" " alt="" coords="494,75,686,119"/>
+<area shape="rect" id="node6" href="$da/dc7/classtiny__mesh__viewer_1_1scene_1_1PointLight.html#a47ad2ba8d4aea6a6c00b05ef720b6dac" title=" " alt="" coords="734,129,921,174"/>
+<area shape="rect" id="node7" href="$d9/dbf/classtiny__mesh__viewer_1_1scene_1_1Object.html#a298bcf97c816fcb68ef1ae785f3c9c1b" title=" " alt="" coords="497,195,683,239"/>
+<area shape="rect" id="node8" href="$d0/d09/classtiny__mesh__viewer_1_1scene_1_1TriMesh.html#a74bcac1c1169e313b21afad730540998" title=" " alt="" coords="734,249,921,294"/>
+<area shape="rect" id="node9" href="$dc/d5c/classtiny__mesh__viewer_1_1ui_1_1Canvas.html#a55c995d808ad51c013fd90871f5959f4" title=" " alt="" coords="273,255,433,299"/>
+<area shape="rect" id="node3" href="$dd/d1e/classtiny__mesh__viewer_1_1scene_1_1Scene.html#a08e4463741ebfba5e41a363f29b66f76" title=" " alt="" coords="260,135,446,179"/>
+<area shape="rect" id="node4" href="$df/d92/classtiny__mesh__viewer_1_1App.html#a32f3b2845ac7bf4ebb71161baa0c9eb0" title=" " alt="" coords="5,229,212,256"/>
+</map>
